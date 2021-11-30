@@ -32,7 +32,7 @@ contract("SimpleBank", function (accounts) {
       //   the following two links
       //   1: https://docs.soliditylang.org/en/v0.8.5/cheatsheet.html?highlight=visibility#function-visibility-specifiers
       //   2: https://docs.soliditylang.org/en/v0.8.5/contracts.html#getter-functions
-      await instance.owner.call(),
+      await  instance.owner.call(),
       contractOwner,
       "owner is not correct",
     );
